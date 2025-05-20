@@ -17,14 +17,14 @@ The goal of this project is to assist healthcare providers in identifying potent
 
 ## 📂 Project Structure
 
-Diabetes-Prediction-ML/
-├── dataset/
-│ ├── diabetes_cleaned.csv
-│ └── diabetes_rf_model.pkl
-├── code/
-│ ├── model_training.ipynb
-│ └── model_testing.ipynb
-├── README.md
+    Diabetes-Prediction-ML/
+    ├── dataset/
+    │ ├── diabetes_cleaned.csv
+    │ └── diabetes_rf_model.pkl
+    ├── code/
+    │ ├── model_training.ipynb
+    │ └── model_testing.ipynb
+    ├── README.md
 
 
 
