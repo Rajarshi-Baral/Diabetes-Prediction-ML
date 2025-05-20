@@ -1,0 +1,85 @@
+# 🩺 Diabetes Prediction using Machine Learning
+
+This project applies a machine learning model to predict whether a patient is likely to have diabetes based on several medical attributes. The system is trained on the well-known Pima Indians Diabetes dataset.
+
+---
+
+## 📌 Overview
+
+The goal of this project is to assist healthcare providers in identifying potential diabetic patients early by analyzing clinical parameters using a Random Forest Classifier.
+
+- 🔍 **Problem Type:** Binary Classification  
+- 🧠 **Algorithm Used:** Random Forest (Tuned via GridSearchCV)  
+- 💾 **Dataset:** Pima Indians Diabetes Dataset (CSV format)  
+- 🛠️ **Tools:** Python, Pandas, Scikit-learn, Jupyter Notebook
+
+---
+
+## 📂 Project Structure
+
+Diabetes-Prediction-ML/
+├── dataset/
+│ ├── diabetes_cleaned.csv
+│ └── diabetes_rf_model.pkl
+├── code/
+│ ├── model_training.ipynb
+│ └── model_testing.ipynb
+├── README.md
+
+
+
+---
+
+## 🧪 Model Training & Evaluation
+
+- Cleaned and preprocessed the dataset (handled zero/missing values).
+- Performed train-test split (80/20).
+- Tuned hyperparameters using `GridSearchCV`.
+- Final model achieved an **accuracy of ~75%**.
+
+### 📉 Evaluation Metrics:
+- Accuracy
+- Confusion Matrix
+- Classification Report (Precision, Recall, F1-Score)
+- ROC-AUC Curve
+
+---
+
+## 🚀 Usage
+
+### 🔬 Predict from Jupyter Notebook:
+
+1. Run `model_training.ipynb` to train and save the model.
+2. Use `model_testing.ipynb` to load the `.pkl` model and make predictions on new patient data.
+
+---
+
+## 📦 Requirements
+
+Install required Python packages:
+
+```bash
+pip install pandas numpy scikit-learn joblib matplotlib seaborn
+
+
+✍️ Author
+Rajarshi Baral
+Aspiring Software Developer & Machine Learning Enthusiast
+📧 baralrajarshi35@gmail.com
+🔗 LinkedIn | GitHub
+
+
+🔮 Future Plans
+    ✅ Build a simple web app using Streamlit or Flask for real-time predictions.
+
+    ✅ Deploy the app on Streamlit Cloud or Render.
+
+    ✅ Improve the ML pipeline and accuracy using XGBoost or ensembling.
+
+    ✅ Add CSV upload support for batch prediction.
+
+
+
+🛡️ Disclaimer
+This project is for educational purposes only and should not be used for real medical diagnosis.   
+
