@@ -64,9 +64,13 @@ pip install pandas numpy scikit-learn joblib matplotlib seaborn
 ```
 
 ✍️ Author
+
 Rajarshi Baral
+
 Aspiring Software Developer & Machine Learning Enthusiast
+
 📧 baralrajarshi35@gmail.com
+
 🔗 [LinkedIn](https://www.linkedin.com/in/rajarshi-baral-r350b01/) | [GitHub](https://github.com/Rajarshi-Baral)
 
 
