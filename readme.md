@@ -64,9 +64,9 @@ The goal of this project is to assist healthcare providers in identifying potent
 
 ```bash
 pip install -r requirements.txt
-cd code
-streamlit run app.py
-##
+```
+```bash
+    streamlit run app.py
 ```
 
 📋 Features:
