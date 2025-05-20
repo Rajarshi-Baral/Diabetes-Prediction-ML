@@ -65,9 +65,7 @@ pip install pandas numpy scikit-learn joblib matplotlib seaborn
 
 ✍️ Author
 
-Rajarshi Baral
-
-Aspiring Software Developer & Machine Learning Enthusiast
+[Rajarshi Baral](https://www.instagram.com/rajarshi__baral/)    |    Aspiring Software Developer & Machine Learning Enthusiast
 
 📧 baralrajarshi35@gmail.com
 
