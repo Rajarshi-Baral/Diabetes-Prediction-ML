@@ -17,14 +17,14 @@ The goal of this project is to assist healthcare providers in identifying potent
 
 ## 📂 Project Structure
 
-Diabetes-Prediction-ML/
-├── dataset/
-│ ├── diabetes_cleaned.csv
-│ └── diabetes_rf_model.pkl
-├── code/
-│ ├── model_training.ipynb
-│ └── model_testing.ipynb
-├── README.md
+    Diabetes-Prediction-ML/
+    ├── dataset/
+    │ ├── diabetes_cleaned.csv
+    │ └── diabetes_rf_model.pkl
+    ├── code/
+    │ ├── model_training.ipynb
+    │ └── model_testing.ipynb
+    ├── README.md
 
 
 
@@ -64,23 +64,30 @@ pip install pandas numpy scikit-learn joblib matplotlib seaborn
 ```
 
 ✍️ Author
-Rajarshi Baral
-Aspiring Software Developer & Machine Learning Enthusiast
+
+😎 [Rajarshi Baral](https://www.instagram.com/rajarshi__baral/)    |    Aspiring Software Developer & Machine Learning Enthusiast
+
 📧 baralrajarshi35@gmail.com
-🔗 LinkedIn | GitHub
+
+🔗 [LinkedIn](https://www.linkedin.com/in/rajarshi-baral-r350b01/) | [GitHub](https://github.com/Rajarshi-Baral)
+
+
 
 
 🔮 Future Plans
-    ✅ Build a simple web app using Streamlit or Flask for real-time predictions.
 
-    ✅ Deploy the app on Streamlit Cloud or Render.
+✅ Build a simple web app using Streamlit or Flask for real-time predictions.
 
-    ✅ Improve the ML pipeline and accuracy using XGBoost or ensembling.
+✅ Deploy the app on Streamlit Cloud or Render.
 
-    ✅ Add CSV upload support for batch prediction.
+✅ Improve the ML pipeline and accuracy using XGBoost or ensembling.
+
+✅ Add CSV upload support for batch prediction.
+
 
 
 
 🛡️ Disclaimer
+
 This project is for educational purposes only and should not be used for real medical diagnosis.   
 
