@@ -67,17 +67,17 @@ pip install pandas numpy scikit-learn joblib matplotlib seaborn
 Rajarshi Baral
 Aspiring Software Developer & Machine Learning Enthusiast
 📧 baralrajarshi35@gmail.com
-🔗 LinkedIn | GitHub
+🔗 [LinkedIn](https://www.linkedin.com/in/rajarshi-baral-r350b01/) | [GitHub](https://github.com/Rajarshi-Baral)
 
 
 🔮 Future Plans
-    ✅ Build a simple web app using Streamlit or Flask for real-time predictions.
+✅ Build a simple web app using Streamlit or Flask for real-time predictions.
 
-    ✅ Deploy the app on Streamlit Cloud or Render.
+✅ Deploy the app on Streamlit Cloud or Render.
 
-    ✅ Improve the ML pipeline and accuracy using XGBoost or ensembling.
+✅ Improve the ML pipeline and accuracy using XGBoost or ensembling.
 
-    ✅ Add CSV upload support for batch prediction.
+✅ Add CSV upload support for batch prediction.
 
 
 
