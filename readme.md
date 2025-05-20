@@ -71,6 +71,7 @@ Aspiring Software Developer & Machine Learning Enthusiast
 
 
 🔮 Future Plans
+
 ✅ Build a simple web app using Streamlit or Flask for real-time predictions.
 
 ✅ Deploy the app on Streamlit Cloud or Render.
@@ -81,6 +82,8 @@ Aspiring Software Developer & Machine Learning Enthusiast
 
 
 
+
 🛡️ Disclaimer
+
 This project is for educational purposes only and should not be used for real medical diagnosis.   
 
