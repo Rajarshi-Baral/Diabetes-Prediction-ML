@@ -19,12 +19,17 @@ The goal of this project is to assist healthcare providers in identifying potent
 
     Diabetes-Prediction-ML/
     ├── dataset/
-    │ ├── diabetes_cleaned.csv
-    │ └── diabetes_rf_model.pkl
+    │   ├── diabetes_cleaned.csv
+    │   ├── diabetes_rf_model.pkl
+    │   └── model_testing.csv          # Auto-generated during app usage
     ├── code/
-    │ ├── model_training.ipynb
-    │ └── model_testing.ipynb
+    │   ├── app.py                     # Streamlit web app
+    │   ├── model_training.ipynb
+    │   ├── model_testing.ipynb
+    │   └── Procfile                   # For deployment (e.g., on Render)
+    ├── requirements.txt              # Dependencies for local/deployment
     ├── README.md
+    
 
 
 
@@ -53,15 +58,45 @@ The goal of this project is to assist healthcare providers in identifying potent
 2. Use `model_testing.ipynb` to load the `.pkl` model and make predictions on new patient data.
 
 ---
+### 🌐 Option 2: Use the Streamlit App
 
-## 📦 Requirements
+#### ▶️ Local Usage:
+
+```bash
+pip install -r requirements.txt
+cd code
+streamlit run app.py
+##
+```
+
+📋 Features:
+User-friendly form for medical input
+
+Displays result: Diabetic or Not Diabetic
+
+Logs user input and prediction to dataset/model_testing.csv
+
+Shows last 5 predictions inside the app
+
+🌍 Deployment (Render / Streamlit Cloud)
+The app includes a Procfile for deployment on Render.
+
+Make sure both app.py and Procfile are inside the code/ folder.
+
+Ensure requirements.txt is in the root directory for build configuration.
+
+
+
+📦Requirements
 
 Install required Python packages:
 
 ```bash
-pip install pandas numpy scikit-learn joblib matplotlib seaborn
+    pip install pandas numpy scikit-learn joblib matplotlib seaborn
 
 ```
+
+
 
 ✍️ Author
 
