@@ -61,6 +61,7 @@ Install required Python packages:
 ```bash
 pip install pandas numpy scikit-learn joblib matplotlib seaborn
 
+```
 
 ✍️ Author
 Rajarshi Baral
