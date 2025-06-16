@@ -76,24 +76,26 @@ pip install streamlit
     streamlit run app.py
 ```
 
+
+###
 📋 Features:
-Intuitive input form for medical attributes
+-Intuitive input form for medical attributes
+-Displays result: Diabetic or Not Diabetic
+-Logs user input and prediction to dataset/model_testing.csv
+-Shows last 5 predictions inside the app
 
-Displays result: Diabetic or Not Diabetic
 
-Logs user input and prediction to dataset/model_testing.csv
 
-Shows last 5 predictions inside the app
-
+###
 🌍 Deployment (Render / Streamlit Cloud)
-The app includes a `Procfile` for deployment on Render.
+-The app includes a `Procfile` for deployment on Render.
 
-Make sure both `app.py` and `Procfile` are inside the code/ folder.
+-Make sure both `app.py` and `Procfile` are inside the code/ folder.
 
-Ensure `requirements.txt` is in the root directory for build configuration.
+-Ensure `requirements.txt` is in the root directory for build configuration.
 
 
-
+###
 📦Requirements
 
 Install dependencies manually (if needed):
