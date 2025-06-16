@@ -79,6 +79,8 @@ pip install streamlit
 
 ###
 📋 Features:
+
+
 -Intuitive input form for medical attributes
 -Displays result: Diabetic or Not Diabetic
 -Logs user input and prediction to dataset/model_testing.csv
@@ -88,6 +90,8 @@ pip install streamlit
 
 ###
 🌍 Deployment (Render / Streamlit Cloud)
+
+
 -The app includes a `Procfile` for deployment on Render.
 
 -Make sure both `app.py` and `Procfile` are inside the code/ folder.
