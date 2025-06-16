@@ -5,3 +5,5 @@ Timestamp,Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPe
 2025-05-21 05:49:32,6,165,92,35,200,37.8,0.9,50,Diabetic
 2025-06-01 05:35:36,1,90,68,20,85,24.5,0.25,25,Not Diabetic
 2025-06-01 05:36:15,6,170,88,35,130,40.2,0.8,50,Diabetic
+2025-06-16 20:52:52,6,160,85,35,140,42.3,0.8,50,Diabetic
+2025-06-16 20:53:36,0,90,65,20,85,24.5,0.3,25,Not Diabetic

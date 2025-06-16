@@ -65,6 +65,10 @@ The goal of this project is to assist healthcare providers in identifying potent
 ```bash
 pip install -r requirements.txt
 ```
+After installing `requirement.text`
+```bash
+pip install streamlit
+```
 Run the below into the "code" directory
 ```bash
     streamlit run app.py
