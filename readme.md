@@ -74,21 +74,18 @@ Run the below into the "code" directory
     streamlit run app.py
 ```
 
-📋 Features:
-User-friendly form for medical input
+### 📋 Features:
 
-Displays result: Diabetic or Not Diabetic
+- Intuitive input form for medical attributes
+- Displays result: Diabetic or Not Diabetic
+- Logs user input and prediction to dataset/model_testing.csv
+- Shows last 5 predictions inside the app
 
-Logs user input and prediction to dataset/model_testing.csv
+### 🌍 Deployment (Render / Streamlit Cloud):
 
-Shows last 5 predictions inside the app
-
-🌍 Deployment (Render / Streamlit Cloud)
-The app includes a Procfile for deployment on Render.
-
-Make sure both app.py and Procfile are inside the code/ folder.
-
-Ensure requirements.txt is in the root directory for build configuration.
+- The app includes a Procfile for deployment on Render.
+- Make sure both app.py and Procfile are inside the code/ folder.
+- Ensure requirements.txt is in the root directory for build configuration.
 
 
 
