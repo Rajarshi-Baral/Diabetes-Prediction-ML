@@ -52,46 +52,48 @@ The goal of this project is to assist healthcare providers in identifying potent
 
 ## 🚀 Usage
 
-### 🔬 Predict from Jupyter Notebook:
+### 🔬Option 1: Predict from Jupyter Notebook:
 
 1. Run `model_training.ipynb` to train and save the model.
 2. Use `model_testing.ipynb` to load the `.pkl` model and make predictions on new patient data.
 
 ---
+
+
 ### 🌐 Option 2: Use the Streamlit App
 
-#### ▶️ Local Usage:
+#### ▶️ Run Locally:
 
 ```bash
 pip install -r requirements.txt
 ```
-After installing `requirement.text`
+⚙️ After installing `requirements.txt`, make sure to also install Streamlit:
 ```bash
 pip install streamlit
 ```
-Run the below into the "code" directory
+📍 Navigate to the `code/` directory and run:
 ```bash
     streamlit run app.py
 ```
 
 ### 📋 Features:
-
-- Intuitive input form for medical attributes
-- Displays result: Diabetic or Not Diabetic
-- Logs user input and prediction to dataset/model_testing.csv
+- Intuitive input form for medical attributes 
+- Displays result: Diabetic or Not Diabetic 
+- Logs user input and prediction to dataset/model_testing.csv 
 - Shows last 5 predictions inside the app
 
 ### 🌍 Deployment (Render / Streamlit Cloud):
+- The app includes a `Procfile` for deployment on Render.
 
-- The app includes a Procfile for deployment on Render.
-- Make sure both app.py and Procfile are inside the code/ folder.
-- Ensure requirements.txt is in the root directory for build configuration.
+- Make sure both `app.py` and `Procfile` are inside the code/ folder.
+
+- Ensure `requirements.txt` is in the root directory for build configuration.
 
 
-
+###
 📦Requirements
 
-Install required Python packages:
+Install dependencies manually (if needed):
 
 ```bash
     pip install pandas numpy scikit-learn joblib matplotlib seaborn
