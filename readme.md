@@ -82,11 +82,11 @@ pip install streamlit
 - Logs user input and prediction to dataset/model_testing.csv 
 - Shows last 5 predictions inside the app
 
+
+
 ### 🌍 Deployment (Render / Streamlit Cloud):
 - The app includes a `Procfile` for deployment on Render.
-
 - Make sure both `app.py` and `Procfile` are inside the code/ folder.
-
 - Ensure `requirements.txt` is in the root directory for build configuration.
 
 
@@ -102,7 +102,7 @@ Install dependencies manually (if needed):
 
 
 
-✍️ Author
+## ✍️ Author
 
 😎 [Rajarshi Baral](https://www.instagram.com/rajarshi__baral/)    |    Aspiring Software Developer & Machine Learning Enthusiast
 
@@ -113,7 +113,7 @@ Install dependencies manually (if needed):
 
 
 
-🔮 Future Plans
+## 🔮 Future Plans
 
 ✅ Build a simple web app using Streamlit or Flask for real-time predictions.
 
@@ -126,7 +126,7 @@ Install dependencies manually (if needed):
 
 
 
-🛡️ Disclaimer
+## 🛡️ Disclaimer
 
 This project is for educational purposes only and should not be used for real medical diagnosis.   
 
