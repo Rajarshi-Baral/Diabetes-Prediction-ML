@@ -104,7 +104,7 @@ Install dependencies manually (if needed):
 
 ## ✍️ Author
 
-😎 [Rajarshi Baral](https://www.instagram.com/rajarshi__baral/)    |    Aspiring Software Developer & Machine Learning Enthusiast
+😎 [Rajarshi Baral](https://www.instagram.com/rajarshi__baral/)    |    Aspiring Software Developer, Web Development & Machine Learning Enthusiast
 
 📧 baralrajarshi35@gmail.com
 
